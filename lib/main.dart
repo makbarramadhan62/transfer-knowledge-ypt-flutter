@@ -110,7 +110,7 @@ class _TaskScreenState extends State<TaskScreen> {
                 if (_formKey.currentState!.validate()) {
                   _formKey.currentState!.save();
                   setState(() {
-                    task.title = _title;
+                    task.git title = _title;
                     task.status = _status;
                   });
                   Navigator.of(context).pop();
